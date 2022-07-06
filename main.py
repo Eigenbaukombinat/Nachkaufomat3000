@@ -15,7 +15,7 @@ HASHES = {}
 
 
 def send_mqtt(title):
-    MQTT.publish("nachkaufomat/empty", title)
+    MQTT.publish("space/nachkaufen", title)
 
 
 for ding in DINGE:
@@ -58,7 +58,7 @@ def add_qr():
 @app.route("/list_codes")
 def list_codes():
     # returnlist of codes with links to current codes and link to add-form
-
+    pass
 
 def gen_qr_image(url):
     # define qr code parameters
