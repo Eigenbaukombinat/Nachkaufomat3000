@@ -5,12 +5,13 @@ Dinge im Space nachkaufen.
 
 # Installation
 
+```bash
 git clone https://github.com/Eigenbaukombinat/Nachkaufomat3000.git
 cd Nachkaufomat3000
 python3 -m venv .
 bin/pip install -r requirements.txt
 FLASK_APP = main.py bin/flask run
-
+```
 
 # Usage
 
