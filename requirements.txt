@@ -1,3 +1,4 @@
 paho_mqtt
+Pillow
 qrcode
 flask
